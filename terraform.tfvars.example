@@ -1,0 +1,21 @@
+prefix = ""
+external_network = ""
+external_network_uuid = ""
+
+os_auth_url = ""
+os_domain_name = ""
+os_username = ""
+os_password = ""
+os_tenant = ""
+
+dns = ["8.8.8.8", "8.8.4.4"]
+
+// Package names to install including window manager you want to use with NX
+install_pkgs = ""
+
+// Set this if the private key you use to connect to NX is different from the one
+// used for ssh (different box)
+nx_pubkey = ""
+
+// Path to a script to run after the NX install
+post_deploy_script = ""
